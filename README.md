@@ -30,6 +30,7 @@ Este proyecto implementa un microservicio backend utilizando **Node.js**, **Expr
 - Produccion= npm run start
 - Test = npm test
 - Documentacion Swagger= http://localhost:3000/api-docs/
+- Frontend HTML = http://localhost:3000/
 
 ## 📌 Endpoints REST y Manejo de errores http status code buenas practicas ApisRest
 - CRUD en base a la directriz de lo solicitado en el entregable.
