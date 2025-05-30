@@ -64,20 +64,24 @@ Este proyecto implementa un microservicio backend utilizando **Node.js**, **Expr
 - Facilidad de mantenimiento
 - Organización limpia del código
 
-## 📁 Estructura del proyecto
+## 📁 Estructura del Proyecto
+
+```plaintext
 ms-express-websocket/
 ├── src/
-│   ├── websocket/            # Implementacion socket.
-│   ├── swagger/              # Documentacion api docs.
-│   ├── models/               # Lógica de acceso a datos (CRUD)/ SQLite.
-│   ├── controller/           # Controladores de endpoints.
-│   ├── routes/               # Rutas de la API REST.
-│   └── app.js                # configuraciones, modulos.    
-│   └── index.js              # Punto de entrada principal.
-├── test/                     # Carpeta para pruebas.
-    └── task.test.js          # Archivo para testear tareas.
-├── README.md                 
-├── package.json              # dependencias y configuraciones de arranque.
+│   ├── public/          # Archivos estáticos para el frontend
+│   ├── websocket/       # Implementación de WebSocket
+│   ├── swagger/         # Documentación de la API (Swagger)
+│   ├── models/          # Modelos y lógica de acceso a datos (CRUD con SQLite)
+│   ├── controller/      # Controladores de los endpoints
+│   ├── routes/          # Rutas de la API REST
+│   ├── app.js           # Configuraciones y módulos de la aplicación
+│   └── index.js         # Punto de entrada principal
+├── test/
+│   └── task.test.js     # Pruebas unitarias para tareas
+├── README.md            # Documentación general del proyecto
+├── package.json         # Dependencias y configuraciones del proyecto
+```
 
 
 ### 📡 Funcionalidad WebSocket
