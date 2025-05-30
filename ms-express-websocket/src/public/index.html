@@ -72,7 +72,7 @@
     // Mostrar la alerta
     alerta.style.display = 'block';
     alerta.classList.add('text-center'); // Centra el texto
-    alerta.textContent = `newTask "${data.titulo}" id: "${data.id}" creada con éxito.`;
+    alerta.textContent = `newTask "id: "${data.id}-${data.titulo}" " creada con éxito.`;
 
     // Ocultar automáticamente después de 3 segundos
     setTimeout(() => {
@@ -119,7 +119,7 @@
         // Mostrar la alerta
     alerta.style.display = 'block';
     alerta.classList.add('text-center'); // Centra el texto
-    alerta.textContent = `taskUpdated, "id:${data.id} status:${data.status}" eliminado con éxito.`;
+    alerta.textContent = `taskUpdated, "id:${data.id} " eliminado con éxito.`;
 
     // Ocultar automáticamente después de 3 segundos
     setTimeout(() => {
