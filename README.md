@@ -15,20 +15,18 @@ Este proyecto implementa un microservicio backend utilizando **Node.js**, **Expr
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/ms-express-websocket.git
+   git clone https://github.com/IgnacioArs/Microservicio-de-Tareas---Node.js-Express-SQLite-WebSocket-Jest-junto-con-Supertest-.git
    cd ms-express-websocket
 
 ## ⚙️ Instalar dependencias
 
 - npm install
-- npm install --save-dev jest supertest --prefer-offline
-- npm install swagger-ui-express swagger-jsdoc
 
 ## 🚀 hacer correr microservicio desarrollo o produccion y SwaggerDocs
 
 - Desarrollo= npm run dev
 - Produccion= npm run start
-- Test = npm test
+- Test= npm test
 - Documentacion Swagger= http://localhost:3000/api-docs/
 - Frontend HTML = http://localhost:3000/
 
